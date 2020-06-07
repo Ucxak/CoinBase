@@ -1,0 +1,72 @@
+
+header{
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    height: 90px;
+    justify-content: space-around;
+}
+
+.CoinBasesLogo{
+    width: 142px;
+    height: 28.61px;
+}
+
+.ul_first{
+    display: flex;
+    justify-content: space-between;
+    width: 426px;
+}
+
+.ul_first li{
+    list-style-type: none;
+}
+
+.headers_a{
+    text-decoration: none;
+    color: #5C5C5C;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+#dropdown{
+    color: #5C5C5C;
+    font-family: sans-serif;
+    border: 1px solid #FFFFFF;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+::-webkit-scrollbar{
+    width: 18px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+
+.dropdown_p0ccz0:hover{
+    background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+
+/* #dropdown_p{
+    color: #5C5C5C;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+} */

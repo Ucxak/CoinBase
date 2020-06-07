@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    height: 90px;
+    justify-content: space-around;
+}
+
+.CoinBasesLogo{
+    width: 142px;
+    height: 28.61px;
+}
+
+.ul_first{
+    display: flex;
+    justify-content: space-between;
+    width: 426px;
+}
+
+.ul_first li{
+    list-style-type: none;
+}
+
+.headers_a{
+    text-decoration: none;
+    color: #5C5C5C;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+#dropdown{
+    color: #5C5C5C;
+    font-family: sans-serif;
+    border: 1px solid #FFFFFF;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+::-webkit-scrollbar{
+    width: 18px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+
+.dropdown_p0ccz0:hover{
+    background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+
+/* #dropdown_p{
+    color: #5C5C5C;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+} */
+
+
+.bloc-1{
+    background: linear-gradient(#FD749B, #281AC8);
+    display: flex;
+}
+
+.blocs-1_bloc-1{
+    width: 50%;
+    padding-left: 164px;
+    padding-right: 75px;
+    padding-top: 147px;
+}
+
+.blocs-1_bloc-2{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.blocs-1_bloc-1>p{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.blocs-1_bloc-1>h1{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+
+.blocs-2_bloc{
+    border: 1px solid #FD749B;
+    border-radius: 10px;
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloc-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocs-2_img1{
+    margin: 0px 150px 0px 150px;
+    margin-top: 0px;
+    width: 527px;
+    height: 329px;
+}
+
+.blocs-2_bloc>p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 250% */
+    height: 156px;
+    width: 500px;
+    text-align: center;
+    color: #333333;
+    margin-left: 150px;
+}
+
+.blocs-2_bloc>h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 65px;
+    /* identical to box height, or 232% */
+    /* 3 */
+    color: #B0529E;
+    width: 250px;
+    margin-left: 290px;
+}
+
+.blocs-2_img2{
+    width: 231px;
+    height: 36px;
+    margin-left: 290px;
+}
+
